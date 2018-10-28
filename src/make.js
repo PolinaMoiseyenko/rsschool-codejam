@@ -1,4 +1,4 @@
-function make(args) {
+module.exports = function make(args) {
     const arr = [];
     arr.push(args);
     function findFunc(...data) {
