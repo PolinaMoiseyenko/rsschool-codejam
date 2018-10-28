@@ -1,4 +1,4 @@
-function sumOfOther(array) {
+module.exports = function sumOfOthers(array) {
     let sum = 0;
     array.forEach(element => {
         sum += element;
